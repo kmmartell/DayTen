@@ -1,0 +1,26 @@
+page-home {
+
+}
+
+.picker-img{
+  height:30px;
+  width:30px;
+}
+.picker-img.not-eaten{
+  opacity:0.3;
+  filter: grayscale(100%);
+}
+
+.counter-img{
+  width:40px;
+  height:40px;
+}
+
+.nut-list{
+  display:flex;
+  flex-direction:row;
+  img {
+    float:left;
+    margin-right:5px;
+  }
+}
